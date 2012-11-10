@@ -136,7 +136,7 @@ while [ $# -gt 0 ]; do
 		elif [[ "$param" =~ $PAT_HMS ]]; then    # H:M:S
 			sec_rem=`print_seconds 0 0 ${BASH_REMATCH[1]} ${BASH_REMATCH[2]} ${BASH_REMATCH[3]}`
 		elif [[ "$param" =~ $PAT_MS ]]; then     # M:S
-			sec_rem=`print_seconds 0 0 0 ${BASH_REMATCH[1]} ${BASH_REMATCH[2]}`			
+			sec_rem=`print_seconds 0 0 0 ${BASH_REMATCH[1]} ${BASH_REMATCH[2]}`
 		elif [[ "$param" =~ $PAT_S ]]; then      # S
 			sec_rem=`print_seconds 0 0 0 0 ${BASH_REMATCH[1]}`
 		else
