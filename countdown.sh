@@ -1,6 +1,6 @@
 #!/bin/bash
 # A simple countdown timer written in bash script
-# Author: Timothy Lin
+# Author: Timothy Lin <lzh9102@gmail.com>
 # Date: 2011-07-21
 
 # Messages
