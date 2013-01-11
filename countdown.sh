@@ -238,8 +238,8 @@ while [ 0 -eq 0 ]; do
 	
 	tput home # move cursor back to (0,0)
 	
-	# wait for 0.1 second and monitor user input
-	read -n 1 -t 0.1 ch
+	# wait for 0.9 second and monitor user input
+	read -n 1 -t 0.9 ch
 	if [ "$ch" == "q" ]; then
 		cleanup_and_exit 1 "$INTERRUPT_MSG"
 	fi
